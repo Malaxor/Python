@@ -1,6 +1,6 @@
 def cap_text(text):
    '''
    input a string
-   output the capitalized string
+   output a capitalized, first letter only, string
    '''
    return text.title()
