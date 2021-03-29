@@ -1,10 +1,11 @@
-#two.py
+# two.py
 import one
 
-print("TOP LEVE IN TWO.PY")
+print("Top Level in two.py")
+
 one.func()
 
 if __name__ == "__main__":
-   print("TWO.PY is being run directly")
+   print("two.py is being run directly")
 else:
-   print("TWO.PY has been imported")
+   print("two.py has been imported")
