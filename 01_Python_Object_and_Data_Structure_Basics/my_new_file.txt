@@ -3,3 +3,4 @@ I am a line on a new file
 I can keep doings this until 
 Well.. . forever
 I'm an appended line
+I'm an appended line
