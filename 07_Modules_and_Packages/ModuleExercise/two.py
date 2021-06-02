@@ -3,9 +3,12 @@ import one
 
 print("Top Level in two.py")
 
-one.func()
+def say_two():
+    print(f"My __name__ is {__name__}")
+say_two()
+one.say_one()
 
 if __name__ == "__main__":
-   print("two.py is being run directly")
+    print("two.py is being run directly")
 else:
-   print("two.py has been imported")
+    print("two.py has been imported")

@@ -1,10 +1,10 @@
 # one.py
-def func():
-   print("func() in one.py")
+def say_one():
+    print(f"I'm in one.py")
 
 print("Top Level in one.py")
 
 if __name__ == "__main__":
-   print("ONE.PY is being run directly")
+    say_one()
 else:
-   print("ONE.PY has been imported.")
+    print("ONE.PY has been imported.")
