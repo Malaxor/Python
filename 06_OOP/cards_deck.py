@@ -28,6 +28,8 @@ class Deck:
             raise ValueError("All cards have been delt.")
         # when user asks for more cards than available
         amount = min(self.count(), amount)
+        if amount == 1:
+            return self.cards.pop()
         return [self.cards.pop() for i in range(amount)]
         
     def shuffle(self):
@@ -37,7 +39,8 @@ class Deck:
         return self
     
     def deal_card(self):
-        return self._deal(1)[0]
+        return self._deal(1)
     
     def deal_hand(self, amount):
         return self._deal(amount)
+    
