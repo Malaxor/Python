@@ -1,4 +1,4 @@
-STUFFng to files is great
+Writing to files is great
 Here's another line of text
 Closing now, goodbye!
 I ruined the haiku...
